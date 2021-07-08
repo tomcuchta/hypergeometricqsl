@@ -21,7 +21,7 @@ from matplotlib import rc
 #rc('text', usetex=True)
 
 
-callsign="AA1PB"
+callsign="K9PLS"
 
 def alphabetposition(c):
     if(c=="A"):
