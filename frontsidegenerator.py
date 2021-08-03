@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
-
-
-
 from mpmath import *
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
@@ -21,7 +12,7 @@ from matplotlib import rc
 #rc('text', usetex=True)
 
 
-callsign="WN0P"
+callsign="KI0Y"
 
 def alphabetposition(c):
     if(c=="A"):
