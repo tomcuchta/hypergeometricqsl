@@ -12,61 +12,61 @@ from matplotlib import rc
 #rc('text', usetex=True)
 
 
-callsign="K2YS"
+callsign="WA1LNY"
 
 def alphabetposition(c):
     if(c=="A"):
-        return 6.5
+        return 7
     if(c=="B"):
-        return 6
+        return 7
     if(c=="C"):
-        return 5.5
-    if(c=="D"):
-        return 5
-    if(c=="E"):
-        return 4.5
-    if(c=="F"):
-        return 4
-    if(c=="G"):
-        return 3.5
-    if(c=="H"):
-        return 3
-    if(c=="I"):
-        return 2.5
-    if(c=="J"):
-        return 2
-    if(c=="K"):
-        return 1.5
-    if(c=="L"):
-        return 1
-    if(c=="M"):
-        return 0.5
-    if(c=="N"):
-        return 0.5
-    if(c=="O"):
-        return 1
-    if(c=="P"):
-        return 1.5
-    if(c=="Q"):
-        return 2
-    if(c=="R"):
-        return 2.5
-    if(c=="S"):
-        return 3
-    if(c=="T"):
-        return 3.5
-    if(c=="U"):
-        return 4
-    if(c=="V"):
-        return 4.5
-    if(c=="W"):
-        return 5
-    if(c=="X"):
-        return 5.5
-    if(c=="Y"):
         return 6
+    if(c=="D"):
+        return 6
+    if(c=="E"):
+        return 5
+    if(c=="F"):
+        return 5
+    if(c=="G"):
+        return 4
+    if(c=="H"):
+        return 4
+    if(c=="I"):
+        return 3
+    if(c=="J"):
+        return 3
+    if(c=="K"):
+        return 2
+    if(c=="L"):
+        return 2
+    if(c=="M"):
+        return 1
+    if(c=="N"):
+        return 1
+    if(c=="O"):
+        return 2
+    if(c=="P"):
+        return 2
+    if(c=="Q"):
+        return 3
+    if(c=="R"):
+        return 3
+    if(c=="S"):
+        return 4
+    if(c=="T"):
+        return 4
+    if(c=="U"):
+        return 5
+    if(c=="V"):
+        return 5
+    if(c=="W"):
+        return 6
+    if(c=="X"):
+        return 6
+    if(c=="Y"):
+        return 7
     if(c=="Z"):
-        return 6.5
+        return 7
     else:
         return c      
    
@@ -86,8 +86,8 @@ def plotme(z):
     return base_function(z)/fabs(base_function(z))
 
 plt.axis('off')
-#cplot(plotme,[-2.75,2.75],[-1.75,1.75],points=1000000)
-cplot(plotme,[-5.5,5.5],[-3.5,3.5],points=1000000)
+cplot(plotme,[-2.75,2.75],[-1.75,1.75],points=1000000)
+#cplot(plotme,[-5.5,5.5],[-3.5,3.5],points=1000000,verbose=True)
 
 ax=plt.gca()
 #rect = Rectangle((-2.5,1.6),1,-1,linewidth=1,edgecolor='r',facecolor='white')
