@@ -12,7 +12,7 @@ from matplotlib import rc
 #rc('text', usetex=True)
 
 
-callsign="WA4NID"
+callsign="VA3QAK"
 
 def alphabetposition(c):
     if(c=="A"):
@@ -86,8 +86,8 @@ def plotme(z):
     return base_function(z)/fabs(base_function(z))
 
 plt.axis('off')
-cplot(plotme,[-2.75,2.75],[-1.75,1.75],points=1000000)
-#cplot(plotme,[-5.5,5.5],[-3.5,3.5],points=1000000,verbose=True)
+#cplot(plotme,[-2.75,2.75],[-1.75,1.75],points=1000000)
+cplot(plotme,[-5.5,5.5],[-3.5,3.5],points=1000000,verbose=True)
 
 ax=plt.gca()
 #rect = Rectangle((-2.5,1.6),1,-1,linewidth=1,edgecolor='r',facecolor='white')
