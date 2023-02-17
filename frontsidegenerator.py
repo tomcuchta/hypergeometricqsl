@@ -11,8 +11,8 @@ from matplotlib import rc
 #rc('font',**{'family':'serif','serif':['Palatino']})
 #rc('text', usetex=True)
 
-
-callsign="KF4J"
+# put the person you made a qso with's callsign here; use all capitals and numbers:
+callsign="CALLSIGN"
 
 def alphabetposition(c):
     if(c=="A"):
