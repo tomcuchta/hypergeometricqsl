@@ -12,7 +12,7 @@ from matplotlib import rc
 #rc('text', usetex=True)
 
 
-callsign="WE8TOM"
+callsign="KF4J"
 
 def alphabetposition(c):
     if(c=="A"):
