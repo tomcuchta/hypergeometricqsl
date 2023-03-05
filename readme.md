@@ -21,7 +21,7 @@ and so my callsign will translate into a list of numbers ```num_csg=[2,5,8,3,7,6
 *note: starting with card 9, the number scheme changed*
 
 # What does "commit" refer to in the QSL card I received?
-A "commit" is a term used in the "git" software version control software. The commit that generated your QSL card was given so you could find the exact code that was used to generate your card. You can find the list of previous commits from this main page by clicking "# commits" under the green box that says "Code". I include this because the precise scheme I use to assign callsigns to generalized hypergeometric functions will change as I run into callsigns whose phase coloring behaves in a way I don't like.
+A "commit" is a term used in the "git" software version control software. The commit on your card is a link to the update where I uploaded a copy of your card to the github repository. This would also give you an approximation to the source code that generated your card. You can find the list of previous commits from this main page by clicking "# commits" under the green box that says "Code". I include this because the precise scheme I use to assign callsigns to generalized hypergeometric functions will change as I run into callsigns whose phase coloring behaves in a way I don't like (or if I change the coloring scheme in other ways in the future).
 
 # Can I use your code?
 Sure; have fun and tell me what you do with it!!
